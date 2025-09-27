@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    border-radius: 10px;
+    font-size: 2em;
+    background-color: aqua;
+    width: 50vw;
+    height: 80vh;
+}
+
+#h1 {
+    text-align: center;
+}
+
+#amont {
+    border-radius: 10px;
+    line-height: 2em;
+    margin-left: 200px;
+    width: 30vw;
+    height: 50vh;
+    /* background-color: rgb(90, 90, 178); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    margin-right: 8em;
+}
+
+input[type="number"] {
+    width: 20vw;
+    height: 4vh;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+#cheak {
+    margin-top: 20px;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1em;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6em;
+    /* background-color: chartreuse; */
+    width: 10vw;
+    height: 10vh;
+}
