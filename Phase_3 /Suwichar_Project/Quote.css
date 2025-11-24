@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: chartreuse;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+#show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+#colorQuote {
+    height: 10vh;
+    width: 15vw;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 3em;
+}

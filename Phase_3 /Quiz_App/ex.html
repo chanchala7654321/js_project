@@ -1,0 +1,396 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 90vh;
+            width: 90vw;
+            /* background-image: url("https://jellyfishwarehouse.com/cdn/shop/products/BayNettle2_1024x1024@2x.jpg?v=1638253060"); */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* text-align: center; */
+        }
+
+        #min {
+            height: 100%;
+            width: 50%;
+            background-color: rgb(109, 121, 121);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #loginForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #namela,
+        #passwordla {
+            margin-top: 5px;
+            margin-right: 6em;
+        }
+
+        #emailla {
+            margin-top: 5px;
+            margin-right: 8em;
+        }
+
+        #div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 25%;
+            width: 50%;
+            background-color: bisque;
+        }
+
+        #div2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 35%;
+            width: 50%;
+            background-color: blanchedalmond;
+        }
+
+        #loginBtn {
+            margin-top: 10px;
+        }
+
+        /* ========= sigh up ============= */
+
+
+        #sighup {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: chartreuse;
+            height: 60%;
+            width: 40%;
+        }
+
+        #sighupForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #nameslasig,
+        #namelasig,
+        #passwordlasig {
+            margin-top: 5px;
+            margin-right: 7em;
+        }
+
+        #emaillasig {
+            margin-top: 5px;
+            margin-right: 9em;
+        }
+
+        #sighupBtn {
+            margin-top: 3em;
+        }
+
+
+        /* ========== nav ========== */
+
+
+        #quizHome {
+            height: 100%;
+            width: 100vw;
+            background-color: rgb(159, 159, 181);
+            /* display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center; */
+        }
+
+        #navbar {
+            height: 10vh;
+            width: 100%;
+            background-color: blue;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            padding: 35px;
+        }
+
+        li {
+            color: white;
+        }
+
+
+        /* =============== start =============== */
+
+        #quizStart {
+            height: 50vh;
+            width: 50vw;
+            background-color: white;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #stBox {
+            height: 30vh;
+            width: 30vw;
+            background-color: rgb(107, 63, 63);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="min" style="display: none;">
+        <div id="div1">
+            <p>You don't have account</p>
+            <button id="sighBtn">Sigh up</button>
+        </div>
+        <div id="div2">
+
+            <h1>WELCOME</h1>
+            <form action="" id="loginForm">
+                <label for="" id="emaillalog">Email</label>
+                <input type="email">
+
+                <label for="" id="namelalog">User Name</label>
+                <input type="text">
+
+                <label for="" id="passwordlalog">Password</label>
+                <input type="password">
+
+                <button id="loginBtn">Login</button>
+
+                <p>Foget password</p>
+            </form>
+        </div>
+    </div>
+    <section id="sighup" style="display: none;">
+        <h1>Sigh up</h1>
+        <form action="" id="sighupForm">
+            <label for="" id="nameslasig">Full Name</label>
+            <input type="email">
+
+            <label for="" id="namelasig">User Name</label>
+            <input type="text">
+
+            <label for="" id="emaillasig">Email</label>
+            <input type="email">
+
+            <label for="" id="passwordlasig">Password</label>
+            <input type="password">
+
+            <button id="sighupBtn">Sigh up</button>
+
+        </form>
+
+    </section>
+
+    <section id="quizHome">
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>Quiz</li>
+                    <li>History</li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <section id="quizStart">
+            <div id="stBox">
+
+                <h1>JS Fundamentals Quiz</h1>
+
+                <p>Test your knowledge on Variables, Functions, DOM, Arrays, and more!</p>
+
+                <button id="startBtn"> Start Quiz</button>
+
+            </div>
+        </section>
+
+
+        <section id="history">
+            <div id="allatempt">
+                <p id="atempt"></p>
+                <p id="correctanswer"></p>
+                <p id="dateTime"></p>
+            </div>
+        </section>
+
+    </section>
+
+
+
+
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        #quiz-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .option-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            text-align: left;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .option-button:hover {
+            background-color: #e2e8f0;
+        }
+
+        #next-btn {
+            margin-top: 15px;
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="quiz-container">
+        <div id="quiz-content"></div>
+    </div>
+
+    <script>
+        const quizQuestions = [
+            { question: "Capital of France?", options: ["Berlin", "Madrid", "Paris", "Rome"], answer: "Paris" },
+            { question: "Red Planet?", options: ["Earth", "Mars", "Jupiter", "Venus"], answer: "Mars" },
+            { question: "Largest ocean?", options: ["Atlantic", "Indian", "Arctic", "Pacific"], answer: "Pacific" }
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let selectedOption = null;
+        const quizContent = document.getElementById('quiz-content');
+
+        function renderQuestion() {
+            const q = quizQuestions[currentQuestionIndex];
+            let html = `<h2>Question ${currentQuestionIndex + 1} of ${quizQuestions.length}</h2>`;
+            html += `<p>${q.question}</p>`;
+            q.options.forEach(option => {
+                html += `<button class="option-button" onclick="selectOption('${option}')">${option}</button>`;
+            });
+            html += `<button id="next-btn" onclick="handleSubmit()">Next</button>`;
+            quizContent.innerHTML = html;
+        }
+
+        function selectOption(option) {
+            selectedOption = option;
+            // Highlight selected
+            document.querySelectorAll('.option-button').forEach(btn => {
+                btn.style.backgroundColor = btn.textContent === option ? '#3b82f6' : '#f9f9f9';
+                btn.style.color = btn.textContent === option ? 'white' : 'black';
+            });
+        }
+
+        function handleSubmit() {
+            if (selectedOption === null) {
+                alert("Please select an option!");
+                return;
+            }
+            if (selectedOption === quizQuestions[currentQuestionIndex].answer) {
+                score++;
+            }
+            selectedOption = null;
+            currentQuestionIndex++;
+            if (currentQuestionIndex < quizQuestions.length) {
+                renderQuestion();
+            } else {
+                renderResults();
+            }
+        }
+
+        function renderResults() {
+            quizContent.innerHTML = `<h2>Quiz Complete!</h2>
+                           <p>Your Score: ${score} / ${quizQuestions.length}</p>
+                           <button onclick="restartQuiz()">Try Again</button>`;
+        }
+
+        function restartQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            renderQuestion();
+        }
+
+        // Initialize
+        renderQuestion();
+    </script>
+
+</body>
+
+</html>
